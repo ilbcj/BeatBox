@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/user2_160x160"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -17,5 +17,14 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE">
+
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH">
+
+    </uses-permission>
 
 </manifest>
